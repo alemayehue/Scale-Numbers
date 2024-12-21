@@ -1,0 +1,8 @@
+Making store_t an unsigned char meaning it only has a capacity of 256 digits held which is 
+good but can be optimized further. I agree with making it unsigned as storing the
+individual digits themselves will not require negative numbers. The buffer_t variable
+should be greater than store_t since it has to account for carrying when adding so the store_t
+variable doesn't immediately give an overflow error. 
+
+In terms of improving, I think that increasing the size of store_t should be considered because
+it would allow for 

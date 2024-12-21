@@ -1,0 +1,23 @@
+Test Plan:
+
+In order to test the program we will have a long list of digits represented as strings in a text file that will be read by the program bignum.cxx
+
+In order to test that the capacity of bignum is correctly surpassed and executes normally, we must perform some boundary and normal test cases.
+Normal test cases include a wide array of random numbers within the capacity and the same for an array of numbers outside of the capacity.
+
+Boundary Test Cases Include:
+
+(+) Number Below Capacity
+(-) Number Below Capacity
+(+) Number Above Capacity
+(-) Number Above Capacity
+
+(+) Single Digit Number
+(-) Single Digit Number
+
+Input has leading zeros
+Input is Zero
+
+Input that includes a letter/other character
+Input that has a sign with no digits
+Input that is empty
